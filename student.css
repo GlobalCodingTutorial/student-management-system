@@ -1,0 +1,86 @@
+*
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: gray;
+    line-height: 1.42857143;
+    padding: 10px; /* Adjust padding as needed */
+}
+.header a {
+    color: #333;
+    text-decoration: none !important;
+    background-color: transparent;
+  }
+  .student_dashboard
+  {
+    font-size: 24px;
+    position: relative;
+    left: 8px;
+  }
+  .header a.student_dashboard:hover
+  {
+    color: white;
+  }
+.logout {
+    float: right; /* Align the logout button to the right */
+   
+}
+.logout .btn{
+    color: white;
+    background-color: #007bff; /* Blue color for the button */
+    padding: 5px 10px; /* Adjust padding as needed */
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners for the button */
+    position: relative;
+    right: 8px;
+}
+.logout .btn:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.container {
+    display: flex; /* Use flexbox to align header and aside */
+    flex-direction: column; /* Align items vertically */
+    height: 100vh; /* Make the container take full viewport height */
+}
+
+.header {
+    flex: 0 0 auto; /* Don't allow header to grow or shrink */
+}
+
+aside {
+    flex: 1 0 auto; /* Allow the aside to grow, but not shrink */
+    background-color: #424a5b; /* Adjust this color as per your preference */
+    width: 240px; /* Adjust the width of the aside as per your design */
+    padding-top: 20px; /* Adjust padding-top to accommodate the header height */
+    position: absolute;
+    height: 100%;
+}
+
+aside ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+aside ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none!important;
+    color: white; /* Default color for links */
+    font-size: 20px;
+    
+}
+
+aside ul li a:hover {
+    color: skyblue;
+
+}
+
+ 
